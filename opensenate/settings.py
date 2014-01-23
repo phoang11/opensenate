@@ -1,5 +1,5 @@
 """
-Django settings for senate project.
+Django settings for opensenate project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -47,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'senate.urls'
+ROOT_URLCONF = 'opensenate.urls'
 
-WSGI_APPLICATION = 'senate.wsgi.application'
+WSGI_APPLICATION = 'opensenate.wsgi.application'
 
 
 # Database
